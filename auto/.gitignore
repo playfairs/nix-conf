@@ -1,0 +1,13 @@
+# Ignore everything recursively
+**
+
+# But don't ignore these files in the root
+!.gitignore
+!*.adoc
+!bootstrap.swift
+!Cargo.*
+
+# Un-ignore src and every subdirectory inside it
+!src/
+!src/**/
+!src/**/*.rs
