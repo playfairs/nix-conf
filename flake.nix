@@ -2,7 +2,7 @@
   description = "My Host Configs";
 
   inputs = {
-    inf.url = "gitlab:invra/nix-conf";
+    inf.url = "gitlab:invra/inc";
   };
 
   outputs = { inf, ... }: inf.mkConfigs {
