@@ -412,16 +412,16 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1757923601,
-        "narHash": "sha256-t6YgLqBFlUFm91Dbl7d493J5j4/3LLuJglrER0knZYc=",
+        "lastModified": 1757928341,
+        "narHash": "sha256-LMcGDSO1aysx5z7iRish4nvCssjG/LAZuMEbZwk6tII=",
         "owner": "invra",
-        "repo": "nix-conf",
-        "rev": "bcc818ca9bd346bfa7cd4d8de897795cb37450b1",
+        "repo": "inc",
+        "rev": "a212233c8bd142153ada103d609be26e5e0918bd",
         "type": "gitlab"
       },
       "original": {
         "owner": "invra",
-        "repo": "nix-conf",
+        "repo": "inc",
         "type": "gitlab"
       }
     },
