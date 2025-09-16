@@ -1,0 +1,12 @@
+= My Nix Configuration
+
+This is literally just a wrapper around my config, which can be found
+link:https://gitlab.com/invra/inc[here].
+
+I seperated my config and hardware configurations to avoid stupid stuff
+
+== License
+
+Of course I have a License on this.
+
+link:./LICENSE.txt[`./LICENSE.txt`]
