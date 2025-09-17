@@ -412,11 +412,11 @@
         "zen-browser": "zen-browser"
       },
       "locked": {
-        "lastModified": 1757928341,
-        "narHash": "sha256-LMcGDSO1aysx5z7iRish4nvCssjG/LAZuMEbZwk6tII=",
+        "lastModified": 1758106322,
+        "narHash": "sha256-yZW2ApQhMce+C1HeFXe6pWb9zE7h6nD/39QeJIVvuaQ=",
         "owner": "invra",
         "repo": "inc",
-        "rev": "a212233c8bd142153ada103d609be26e5e0918bd",
+        "rev": "cfa8f19c03f4c60ab034d7f163b0505f350b624d",
         "type": "gitlab"
       },
       "original": {
@@ -802,11 +802,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1757627143,
-        "narHash": "sha256-kIfxVeU6seeUqOUC9m8vX6FF3txOr0T/2IZBxCxK/ZE=",
+        "lastModified": 1758105560,
+        "narHash": "sha256-/UPxkDvEQE5j6uaXU6eRCU/ocn0+URDrVqtgvbmzwmU=",
         "owner": "invra",
         "repo": "sketchierbar",
-        "rev": "2515788838e2c362214443c9eba7a16de1b6a95e",
+        "rev": "3b8af77cd3e419097b1362df3708f9ef0ccf77f7",
         "type": "gitlab"
       },
       "original": {
