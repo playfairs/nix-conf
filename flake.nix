@@ -1,11 +1,7 @@
 {
   description = "My Host Configs";
 
-  inputs = {
-    inf.url = "gitlab:invra/inc";
-  };
-
-  outputs = { inf, ... }:
+  outputs = { ... }:
   let
     allFiles = builtins.attrNames (builtins.readDir ./hosts);
 
@@ -15,8 +11,6 @@
       name = builtins.replaceStrings [".nix"] [""] file;
       value = import (./hosts + "/${file}");
     };
-
-    hosts = builtins.listToAttrs (map toAttr nixFiles);
-  in
-  inf.mkConfigs hosts;
+ in
+  builtins.listToAttrs (map toAttr nixFiles);
 }
