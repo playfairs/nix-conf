@@ -1,6 +1,6 @@
 {
   desktop = {
-    plasma.enable = true;
+    plasma.enable = false;
     hyprland = {
       enable = true;
       monitors = [
