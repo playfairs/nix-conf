@@ -1,7 +1,18 @@
 {
   desktop = {
     plasma.enable = true;
-    hyprland.enable = true;
+    hyprland = {
+      enable = true;
+      monitors = [
+        {
+          name = "eDP-1";
+          position = "0x0";
+          refreshRate = 144;
+          resolution = "1920x1080";
+          scale = 1;
+        }
+      ];
+    };
   };
   development = {
     git = {
