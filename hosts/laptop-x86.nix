@@ -41,7 +41,7 @@
         nvidiaBusId = "PCI:1:0:0";
       };
     };
-    greeter = "gdm";
+    greeter = "ly";
     hostname = "NixOS";
     interfaces = { };
     kernelParams = [
