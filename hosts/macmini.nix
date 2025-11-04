@@ -2,34 +2,34 @@
   development.scm = {
     git = {
       defaultBranch = "main";
-      email = "identificationsucks@gmail.com";
-      username = "Invra";
+      email = "root@playfairs.cc";
+      username = "playfairs";
     };
     types = [
-      "GitLab"
       "GitHub"
+      "GitLab"
     ];
   };
   system = {
     dock = {
       autoHideDelay = 0.45;
       autohide = true;
-      orientation = "bottom";
+      orientation = "right";
       entries =
         { pkgs, ... }:
         [
-          { path = "/System/Applications/Apps.app"; }
-          { path = "/System/Applications/Mail.app"; }
-          { path = "/System/Applications/Music.app"; }
-          { path = "${pkgs.ghostty-bin}/Applications/Ghostty.app"; }
           { path = "${pkgs.zen}/Applications/Zen.app"; }
+          { path = "${pkgs.spotify}/Applications/Spotify.app"; }
+          { path = "${pkgs.ghostty-bin}/Applications/Ghostty.app"; }
+          { path = "${pkgs.steam}/Applications/Steam.app"; }
+          { path = "${pkgs.zed-editor}/Applications/Zed.app"; }
         ];
     };
-    hostname = "NixOS";
+    hostname = "playfairs";
   };
   user = {
-    displayName = "Peter";
+    displayName = "playfairs";
     initialPassword = "123456";
-    username = "peter";
+    username = "playfairs";
   };
 }
