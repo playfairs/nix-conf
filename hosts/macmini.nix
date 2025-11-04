@@ -13,6 +13,7 @@
   system = {
     dock = {
       autoHideDelay = 0.45;
+      size = 35;
       autohide = true;
       orientation = "right";
       entries =
