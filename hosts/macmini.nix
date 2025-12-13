@@ -12,7 +12,7 @@
   };
   system = {
     dock = {
-      autoHideDelay = 1.45;
+      autoHideDelay = 3;
       size = 40;
       autohide = true;
       orientation = "right";
