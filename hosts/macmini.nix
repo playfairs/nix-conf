@@ -12,15 +12,16 @@
   };
   system = {
     dock = {
-      autoHideDelay = 0.45;
-      size = 60;
+      autoHideDelay = 1.45;
+      size = 40;
       autohide = true;
       orientation = "right";
       entries =
         { pkgs, ... }:
         [
           { path = "${pkgs.zen}/Applications/Zen.app"; }
-          { path = "${pkgs.spotify}/Applications/Spotify.app"; }
+          { path = "${pkgs.whatsapp-for-mac}/Applications/WhatsApp.app"; }
+          { path = "${pkgs.discord}/Applications/Discord.app"; }
           { path = "${pkgs.ghostty-bin}/Applications/Ghostty.app"; }
           { path = "${pkgs.steam}/Applications/Steam.app"; }
           { path = "${pkgs.zed-editor}/Applications/Zed.app"; }
@@ -30,7 +31,7 @@
   };
   user = {
     displayName = "playfairs";
-    initialPassword = "123456";
+    initialPassword = "root";
     username = "playfairs";
   };
 }
