@@ -1,7 +1,7 @@
 = My Nix Configuration
 
 This is literally just a wrapper around my config, which can be found
-link:https://gitlab.com/invra/inc[here].
+link:https://github.com/playfairs/nix[here].
 
 I seperated my config and hardware configurations to avoid stupid stuff
 
