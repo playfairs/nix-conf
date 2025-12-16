@@ -20,8 +20,9 @@
         { pkgs, ... }:
         [
           { path = "${pkgs.zen}/Applications/Zen.app"; }
-          { path = "/Applications/WhatsApp.app"; }
           { path = "/Applications/Discord.app"; }
+          { path = "/Applications/WhatsApp.app"; }
+          { path = "/Applications/Telegram.app"; }
           { path = "/Applications/Spotify.app"; }
           { path = "${pkgs.ghostty-bin}/Applications/Ghostty.app"; }
           { path = "${pkgs.steam}/Applications/Steam.app"; }
