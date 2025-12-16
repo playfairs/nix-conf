@@ -20,6 +20,8 @@
         { pkgs, ... }:
         [
           { path = "${pkgs.zen}/Applications/Zen.app"; }
+          { path = "/Applications/Minesweeper.app"; }
+          { path = "/Applications/MinesweeperPlus.app"; }
           { path = "/Applications/Discord.app"; }
           { path = "/Applications/WhatsApp.app"; }
           { path = "/Applications/Telegram.app"; }
