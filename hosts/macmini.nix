@@ -23,6 +23,7 @@
           { path = "/Applications/Minesweeper.app"; }
           { path = "/Applications/MinesweeperPlus.app"; }
           { path = "/Applications/Discord.app"; }
+          { path = "/Applications/Discord Canary.app"; }
           { path = "/Applications/WhatsApp.app"; }
           { path = "/Applications/Telegram.app"; }
           { path = "/Applications/Spotify.app"; }
