@@ -17,12 +17,12 @@
   development = {
     git = {
       defaultBranch = "main";
-      email = "identificationsucks@gmail.com";
+      email = "root@playfairs.cc";
       types = [
         "GitLab"
         "GitHub"
       ];
-      username = "Invra";
+      username = "playfairs";
     };
   };
   system = {
@@ -33,13 +33,13 @@
       ];
       wanted = [
         "modesetting"
-        "nvidia"
+        # "nvidia"
       ];
 
-      nvidia.prime = {
-        intelBusId = "PCI:0:2:0";
-        nvidiaBusId = "PCI:1:0:0";
-      };
+      # nvidia.prime = {
+      #   intelBusId = "PCI:0:2:0";
+      #   nvidiaBusId = "PCI:1:0:0";
+      # };
     };
     greeter = "ly";
     hostname = "NixOS";
@@ -63,11 +63,12 @@
         enable = true;
       };
     };
-    timezone = "Australia/Sydney";
+    timezone = "American/Chicago";
+    boot.efiDirectory = "/boot";
   };
   user = {
-    displayName = "Invra";
-    initialPassword = "123456";
-    username = "invra";
+    displayName = "playfairs";
+    initialPassword = "root";
+    username = "playfairs";
   };
 }
