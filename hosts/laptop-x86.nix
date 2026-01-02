@@ -14,16 +14,16 @@
       ];
     };
   };
-  development = {
+  development.scm = {
     git = {
       defaultBranch = "main";
       email = "root@playfairs.cc";
-      types = [
-        "GitLab"
-        "GitHub"
-      ];
       username = "playfairs";
     };
+    types = [
+      "GitLab"
+      "GitHub"
+    ];
   };
   system = {
     hardware-module = ./hardware/laptop-x86.nix;
