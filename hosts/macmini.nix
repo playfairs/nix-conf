@@ -20,12 +20,9 @@
         { pkgs, ... }:
         [
           { path = "/Applications/Zen.app"; }
-          { path = "/Applications/Ball.app"; }
           { path = "/Applications/Spotify.app"; }
           { path = "/Applications/Minesweeper.app"; }
-          { path = "/Applications/MinesweeperPlus.app"; }
           { path = "/Applications/Discord.app"; }
-          { path = "/Applications/Discord Canary.app"; }
           { path = "/Applications/WhatsApp.app"; }
           { path = "/Applications/Telegram.app"; }
           { path = "${pkgs.ghostty-bin}/Applications/Ghostty.app"; }
