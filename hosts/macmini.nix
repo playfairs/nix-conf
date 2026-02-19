@@ -22,6 +22,8 @@
           { path = "/Applications/Zen.app"; }
           { path = "/Applications/Spotify.app"; }
           { path = "/Applications/Minesweeper.app"; }
+          { path = "/Applications/MinesweeperPlus.app"; }
+          { path = "/Applications/Tailscale.app"; }
           { path = "/Applications/Discord.app"; }
           { path = "/Applications/WhatsApp.app"; }
           { path = "/Applications/Telegram.app"; }
