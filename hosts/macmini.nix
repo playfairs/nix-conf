@@ -23,12 +23,10 @@
           { path = "/Applications/Spotify.app"; }
           { path = "/Applications/Minesweeper.app"; }
           { path = "/Applications/MinesweeperPlus.app"; }
-          { path = "/Applications/Tailscale.app"; }
           { path = "/Applications/Discord.app"; }
           { path = "/Applications/WhatsApp.app"; }
           { path = "/Applications/Telegram.app"; }
-          { path = "${pkgs.ghostty-bin}/Applications/Ghostty.app"; }
-          { path = "${pkgs.steam}/Applications/Steam.app"; }
+          { path = "/Applications/Prism Launcher.app"; }
         ];
     };
     hostname = "playfairs";
