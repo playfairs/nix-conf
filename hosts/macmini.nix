@@ -27,6 +27,7 @@
           { path = "/Applications/WhatsApp.app"; }
           { path = "/Applications/Telegram.app"; }
           { path = "/Applications/Prism Launcher.app"; }
+          { path = "/Applications/osu!.app"; }
         ];
     };
     hostname = "playfairs";
