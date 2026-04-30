@@ -21,13 +21,14 @@
         [
           { path = "/Applications/Zen.app"; }
           { path = "/Applications/Spotify.app"; }
-          { path = "/Applications/Minesweeper.app"; }
-          { path = "/Applications/MinesweeperPlus.app"; }
+          # { path = "/Applications/Minesweeper.app"; }
+          # { path = "/Applications/MinesweeperPlus.app"; }
           { path = "/Applications/Discord.app"; }
-          { path = "/Applications/WhatsApp.app"; }
+          # { path = "/Applications/WhatsApp.app"; }
           { path = "/Applications/Telegram.app"; }
           { path = "/Applications/Prism Launcher.app"; }
           { path = "/Applications/osu!.app"; }
+          { path = "/Applications/Steam.app"; }
         ];
     };
     hostname = "playfairs";
