@@ -15,7 +15,7 @@
       autoHideDelay = 3;
       size = 50;
       autohide = true;
-      orientation = "bottom";
+      orientation = "right";
       entries =
         { pkgs, ... }:
         [
