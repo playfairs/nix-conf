@@ -32,6 +32,9 @@
         ];
     };
     hostname = "playfairs";
+    stageManager = {
+      enable = true;
+    };
   };
   user = {
     displayName = "playfairs";
