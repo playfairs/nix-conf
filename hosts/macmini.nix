@@ -17,7 +17,7 @@
       autohide = true;
       orientation = "bottom";
       entries =
-        { ... }:
+        { pkgs, ... }:
         [
           { path = "/Applications/Zen.app"; }
           { path = "/Applications/Spotify.app"; }
@@ -26,6 +26,7 @@
           { path = "/Applications/Prism Launcher.app"; }
           { path = "/Applications/Steam.app"; }
           { path = "/Volumes/BARRACUDA/Applications/Xcode.app"; }
+          { path = "${pkgs.asteride}/Applications/AsterIDE.app"; }
         ];
     };
     hostname = "playfairs";
