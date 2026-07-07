@@ -17,7 +17,7 @@
       autohide = true;
       orientation = "bottom";
       entries =
-        { pkgs, flakeInputs, ... }:
+        { ... }:
         [
           { path = "/Applications/Zen.app"; }
           { path = "/Applications/Spotify.app"; }
@@ -26,7 +26,6 @@
           { path = "/Applications/Prism Launcher.app"; }
           { path = "/Applications/Steam.app"; }
           { path = "/Volumes/BARRACUDA/Applications/Xcode.app"; }
-          { path = "${flakeInputs.asteride.packages.${pkgs.system}.asteride}/Applications/AsterIDE.app"; }
         ];
     };
     hostname = "playfairs";
