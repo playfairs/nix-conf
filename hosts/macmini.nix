@@ -15,21 +15,17 @@
       autoHideDelay = 3;
       size = 50;
       autohide = true;
-      orientation = "right";
+      orientation = "bottom";
       entries =
-        { pkgs, ... }:
+        { ... }:
         [
           { path = "/Applications/Zen.app"; }
           { path = "/Applications/Spotify.app"; }
-          # { path = "/Applications/Minesweeper.app"; }
-          # { path = "/Applications/MinesweeperPlus.app"; }
           { path = "/Applications/Discord.app"; }
-          # { path = "/Applications/WhatsApp.app"; }
           { path = "/Applications/Telegram.app"; }
-          { path = "/Applications/Element.app"; }
           { path = "/Applications/Prism Launcher.app"; }
-          { path = "/Applications/osu!.app"; }
           { path = "/Applications/Steam.app"; }
+          { path = "/Volumes/BARRACUDA/Applications/Xcode.app"; }
         ];
     };
     hostname = "playfairs";
