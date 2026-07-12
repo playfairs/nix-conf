@@ -21,6 +21,7 @@
         [
           { path = "/Applications/Zen.app"; }
           { path = "/Applications/Spotify.app"; }
+          { path = "/Applications/Music.app"; }
           { path = "/Applications/Discord.app"; }
           { path = "/Applications/Telegram.app"; }
           { path = "/Applications/Prism Launcher.app"; }
