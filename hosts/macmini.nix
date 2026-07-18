@@ -19,7 +19,7 @@
       entries =
         { ... }:
         [
-          { path = "/Applications/Zen.app"; }
+          { path = "/Applications/Helium.app"; }
           { path = "/Applications/Spotify.app"; }
           { path = "/Applications/Music.app"; }
           { path = "/Applications/Discord.app"; }
