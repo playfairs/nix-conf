@@ -27,6 +27,7 @@
           { path = "/Applications/Prism Launcher.app"; }
           { path = "/Applications/Steam.app"; }
           { path = "/Volumes/BARRACUDA/Applications/Visual Studio Code.app"; }
+          { path = "~/Applications/Home Manager Apps/Gram.app"; }
         ];
     };
     hostname = "playfairs";
