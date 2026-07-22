@@ -26,8 +26,8 @@
           { path = "/Applications/Telegram.app"; }
           { path = "/Applications/Prism Launcher.app"; }
           { path = "/Applications/Steam.app"; }
-          { path = "/Volumes/BARRACUDA/Applications/Xcode.app"; }
           { path = "/Volumes/BARRACUDA/Applications/Visual Studio Code.app"; }
+          { path = "/nix/store/<hash>-gram-3.0.1/Applications/Gram.app"; }
         ];
     };
     hostname = "playfairs";
