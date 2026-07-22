@@ -17,7 +17,7 @@
       autohide = true;
       orientation = "bottom";
       entries =
-        { ... }:
+        { pkgs, ... }:
         [
           { path = "/Applications/Helium.app"; }
           { path = "/Applications/Spotify.app"; }
@@ -27,7 +27,7 @@
           { path = "/Applications/Prism Launcher.app"; }
           { path = "/Applications/Steam.app"; }
           { path = "/Volumes/BARRACUDA/Applications/Visual Studio Code.app"; }
-          { path = "~/Applications/Home Manager Apps/Gram.app"; }
+          { path = "${pkgs.gram}/Applications/Gram.app"; }
         ];
     };
     hostname = "playfairs";
