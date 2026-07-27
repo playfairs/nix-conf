@@ -1,7 +1,7 @@
 {
   development.scm = {
     git = {
-      defaultBranch = "main";
+      defaultBranch = "master";
       email = "root@playfairs.cc";
       username = "playfairs";
     };
