@@ -20,12 +20,9 @@
         { pkgs, ... }:
         [
           { path = "/Applications/Helium.app"; }
-          { path = "/Applications/Spotify.app"; }
-          { path = "/Applications/Music.app"; }
           { path = "/Applications/Discord.app"; }
           { path = "/Applications/equibop.app"; }
           { path = "/Applications/Telegram.app"; }
-          { path = "/Applications/Prism Launcher.app"; }
           { path = "/Applications/Steam.app"; }
           { path = "/Volumes/BARRACUDA/Applications/Visual Studio Code.app"; }
           { path = "${pkgs.gram}/Applications/Gram.app"; }
