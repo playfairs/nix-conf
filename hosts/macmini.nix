@@ -23,7 +23,7 @@
           { path = "/Applications/Spotify.app"; }
           { path = "/Applications/Music.app"; }
           { path = "/Applications/Discord.app"; }
-          { path = "${pkgs.equibop}/Applications/equibop.app"; }
+          { path = "/Applications/equibop.app"; }
           { path = "/Applications/Telegram.app"; }
           { path = "/Applications/Prism Launcher.app"; }
           { path = "/Applications/Steam.app"; }
