@@ -28,6 +28,7 @@
   system = {
     hardware-module = ./hardware/laptop-x86.nix;
     graphics = {
+      enable32Bit = true;
       blacklists = [
         "nouveau"
       ];

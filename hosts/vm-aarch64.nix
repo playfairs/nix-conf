@@ -16,6 +16,7 @@
   system = {
     hardware-module = ./hardware/vm-aarch64.nix;
     graphics = {
+      enable32Bit = false;
       blacklists = [
         "nouveau"
         "nvidia"

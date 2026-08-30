@@ -16,6 +16,7 @@
   system = {
     hardware-module = ./hardware/vm-x86.nix;
     graphics = {
+      enable32Bit = true;
       blacklists = [ ];
       wanted = [ "modesetting" ];
     };
